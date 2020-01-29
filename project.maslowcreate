@@ -12,19 +12,115 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 180,
-                    "y": 133,
+                    "x": 106,
+                    "y": 91,
                     "uniqueID": 646824,
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 10
+                            "ioValue": 17.4
                         },
                         {
                             "name": "y length",
-                            "ioValue": 10
+                            "ioValue": 5.75
                         }
                     ]
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 106,
+                    "y": 211,
+                    "uniqueID": 349758,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 16
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 4
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 290,
+                    "y": 97,
+                    "uniqueID": 645955,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 7
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 267,
+                    "y": 192,
+                    "uniqueID": 657501,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 7
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 443,
+                    "y": 79,
+                    "uniqueID": 719921,
+                    "ioValues": [],
+                    "selectedColorIndex": "1"
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 430,
+                    "y": 195,
+                    "uniqueID": 611270,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 2
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 673,
+                    "y": 169,
+                    "uniqueID": 873956,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Add-BOM-Tag",
+                    "name": "Add BOM Tag",
+                    "x": 874,
+                    "y": 156,
+                    "uniqueID": 319052,
+                    "ioValues": [],
+                    "BOMitem": {
+                        "BOMitemName": "JST XH 6 Connector",
+                        "numberNeeded": 1,
+                        "costUSD": 0.21,
+                        "source": "https://www.digikey.com/product-detail/en/jst-sales-america-inc/B6B-XH-A-LF-SN/455-2271-ND/1000381",
+                        "totalNeeded": 1
+                    }
                 },
                 {
                     "atomType": "Output",
@@ -34,7 +130,63 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 646824,
+                    "ap2ID": 645955
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 349758,
+                    "ap2ID": 657501
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 645955,
+                    "ap2ID": 719921
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 657501,
+                    "ap2ID": 611270
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry1",
+                    "ap2Primary": false,
+                    "ap1ID": 719921,
+                    "ap2ID": 873956
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap2Primary": false,
+                    "ap1ID": 611270,
+                    "ap2ID": 873956
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 873956,
+                    "ap2ID": 319052
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 319052
+                }
+            ],
             "fileTypeVersion": 1
         }
     ],

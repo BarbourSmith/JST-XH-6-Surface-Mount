@@ -2,6 +2,7 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|Total: |0|$0.00| |
+|JST XH 6 Connector|2|$0.21|https://www.digikey.com/product-detail/en/jst-sales-america-inc/B6B-XH-A-LF-SN/455-2271-ND/1000381|
+|Total: |2|$0.21| |
 
- 3xCOG MSRP: $0.00
+ 3xCOG MSRP: $0.63
