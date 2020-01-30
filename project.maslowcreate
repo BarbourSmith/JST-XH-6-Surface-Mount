@@ -108,17 +108,17 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "Add-BOM-Tag",
+                    "atomType": "Add BOM Tag",
                     "name": "Add BOM Tag",
-                    "x": 874,
-                    "y": 156,
-                    "uniqueID": 319052,
+                    "x": 915,
+                    "y": 143,
+                    "uniqueID": 336809,
                     "ioValues": [],
                     "BOMitem": {
-                        "BOMitemName": "JST XH 6 Connector",
+                        "BOMitemName": "JST XH 6 Surface Mount Connector",
                         "numberNeeded": 1,
-                        "costUSD": 0.21,
-                        "source": "https://www.digikey.com/product-detail/en/jst-sales-america-inc/B6B-XH-A-LF-SN/455-2271-ND/1000381",
+                        "costUSD": 0.4,
+                        "source": "www.example.com",
                         "totalNeeded": 1
                     }
                 },
@@ -178,13 +178,13 @@
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 873956,
-                    "ap2ID": 319052
+                    "ap2ID": 336809
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
-                    "ap1ID": 319052
+                    "ap1ID": 336809
                 }
             ],
             "fileTypeVersion": 1
