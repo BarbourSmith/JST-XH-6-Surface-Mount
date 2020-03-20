@@ -4,9 +4,3 @@
 
 ![](/project.svg)
 
-## JST-XH 6 Surface Mount
-
-
-undefined
-
-
